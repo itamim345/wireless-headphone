@@ -30,6 +30,9 @@ nav{
     font-weight: 300;
     margin: 2vw 0;
 }
+.left-section h3 {
+    font-size: 2.5vw;
+}
 .sub-headline {
     gap: 1vw;
     display: flex;
@@ -48,7 +51,7 @@ nav{
     padding: 2vw 0;
     font-size: 1vw;
 }
-.action-btns .action-btn {
+.action-btn {
     color: #fff;
     background: #FE5E35;
     border: none;
@@ -84,4 +87,31 @@ nav{
     top: 50vh;
     z-index: 9999;
 }
+.right-section .action-btn {
+    position: absolute;
+    top: 110%;
+    right: 16%;
+}
+.dots {
+    position: absolute;
+    top:100%;
+    right: 20%;
+    display: flex;
+    gap: 1vw;
 
+}
+.dot {
+    background-color: #ff0000;
+    height: 1.5vw;
+    width: 1.5vw;
+    border-radius: 50%;
+}
+.yellow-dot {
+    background-color: yellow;
+}
+.tomato-dot {
+    background-color: tomato;
+}
+.black-dot {
+    background-color: black;
+}
