@@ -137,4 +137,7 @@ nav{
     .right-section {
         margin: 0 auto;
     }
+    .right-section .action-btn {
+        padding: 2vw;
+    }
 }
