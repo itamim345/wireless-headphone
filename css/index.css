@@ -62,40 +62,40 @@ nav{
 }
 .right-section {
     width: 40%;
+    position: relative;
 }
 .right-section img:nth-child(3){
-    width: 100%;
+    width: 40vw;
     position: absolute;
     top: 0;
-}
-.headphone-div {
-    position: relative;
 }
 .headphone-div img:nth-child(1){
     width: 26%;
     position: absolute;
-    top: 45vh;
+    top: 20vw;
     z-index: 999;
 }
 .discount-content h4,h1{
     margin: 0;
+    font-size: 1.3vw;
+    text-align: center;
 }
 .discount-content  {
     left: 2vw;
     color: #ffff;
     position: absolute;
-    top: 50vh;
+    top: 23vw;
     z-index: 9999;
 }
 .right-section .action-btn {
     position: absolute;
-    top: 110%;
-    right: 16%;
+    top: 43vw;
+    right: 8vw;
 }
 .dots {
     position: absolute;
-    top:100%;
-    right: 20%;
+    top: 40vw;
+    right: 12vw;
     display: flex;
     gap: 1vw;
 
@@ -114,4 +114,27 @@ nav{
 }
 .black-dot {
     background-color: black;
+}
+
+/* Responsive CSS */
+@media (max-width: 768px){
+    /* nav */
+    nav {
+        flex-direction: column;
+    }
+    /* intro-area */
+    .intro-section {
+        flex-direction: column;
+        gap: 5vh;
+    }
+    .left-section {
+        width: 100%;
+        text-align: center;
+    }
+    .left-section h1 {
+        text-align: left;
+    }
+    .right-section {
+        margin: 0 auto;
+    }
 }
