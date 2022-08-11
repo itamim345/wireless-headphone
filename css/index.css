@@ -134,10 +134,19 @@ nav{
     .left-section h1 {
         text-align: left;
     }
+    .left-section .text {
+        font-size: 2vw;
+    }
     .right-section {
         margin: 0 auto;
     }
     .right-section .action-btn {
         padding: 2vw;
+    }
+    .dots {
+        right: 13vw;
+    }
+    .action-btn {
+        font-size: 2vw;
     }
 }
